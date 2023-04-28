@@ -1,0 +1,2 @@
+# MBA_machine_learning_production
+Repositoria com atividades realizadas ao longo do MBA_machine_learning_in_production na UFSCar
