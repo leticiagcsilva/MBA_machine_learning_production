@@ -2,7 +2,7 @@
 
 ## Objetivos
 
-O objetivo principal deste repositório é servir como um espaço para armazenar e compartilhar as atividades desenvolvidas durante o curso MBA Machine Learning Production. Aqui você encontrará uma variedade de projetos, exercícios e recursos relacionados a Engenharia de Machine Learning e Big Data.
+O objetivo principal deste repositório é servir como um espaço para armazenar e compartilhar as atividades desenvolvidas durante o curso MBA Machine Learning Production.
 
 ## Conteúdo
 
