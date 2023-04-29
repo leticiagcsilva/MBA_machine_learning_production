@@ -1,0 +1,38 @@
+@startuml diretorio_composite_pattern
+    note as n
+        Os diretórios contêm itens,
+        cada um dos quais pode ser 
+        um arquivo ou outro diretório 
+    end note
+
+    class Client{
+        
+    }
+
+    abstract class Diretorio{
+        -String ListaDiretorio
+
+        +open()
+        +add()
+        +remove()
+    }
+    
+    class item{
+
+        +open()
+    }
+
+    class SubDiretorio{
+        -String ListaSubDiretorio 
+
+        +open()
+        +add()
+        +remove()
+    }
+
+    Client =right=..> Diretorio
+    Diretorio <|-- SubDiretorio 
+    Diretorio <|-- item
+    Diretorio"0..*" --o SubDiretorio
+
+@enduml

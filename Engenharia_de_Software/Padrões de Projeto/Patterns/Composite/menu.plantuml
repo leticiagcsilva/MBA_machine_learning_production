@@ -1,0 +1,37 @@
+@startuml menu_composite_pattern
+    note as n
+        Os menus contêm itens,
+        cada um dos quais pode ser uma funcionalidade
+        ou outro menu. 
+    end note
+
+    class Client{
+        
+    }
+
+    abstract class Menu{
+        
+        +open()
+        +add()
+        +remove()
+    }
+    
+    class item{
+
+        +open()
+    }
+
+    class SubMenu{
+        -String List 
+
+        +open()
+        +add()
+        +remove()
+    }
+
+    Client =right=..> Menu
+    Menu <|-- SubMenu 
+    Menu <|-- item
+    Menu"0..*" --o SubMenu
+
+@enduml
