@@ -11,4 +11,4 @@ O repositório está organizado com pastas com cada disciplina utilizando a segu
 - `projetos/`: Esta pasta contém os projetos desenvolvidos durante o curso. Cada projeto possui sua própria pasta e documentação específica.
 - `atividades/`: Nesta pasta, você encontrará exercícios práticos propostos durante as aulas e tarefas para praticar conceitos e técnicas de Machine Learning.
 - `recursos/`: Aqui você encontrará materiais adicionais, como artigos, tutoriais, notebooks e outros recursos úteis para aprofundar seu conhecimento em Engenharia de Machine Learning e Big Data.
-- `referencias/`: Nesta pasta, estão listadas as referências utilizadas durante o curso, incluindo livros, artigos científicos e links para materiais online.
+- `referencias.md`: Nesse arquivo, estão listadas as referências utilizadas durante o curso, incluindo livros, artigos científicos e links para materiais online.
