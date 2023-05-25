@@ -34,16 +34,6 @@ As vantagens da arquitetura escolhida são:
 
 No entanto, as limitações da arquitetura distribuída incluem a complexidade de gerenciamento de comunicação assíncrona entre os nós e a latência.
 
-## Como Executar o Projeto
-
-Para executar o projeto, siga as etapas abaixo:
-
-1. Clone este repositório.
-2. Certifique-se de ter o Docker instalado em sua máquina.
-3. Execute o comando `docker-compose up` para construir e executar o contêiner Docker.
-4. Os nós de treinamento e previsão estarão em execução, e a comunicação entre eles será estabelecida usando ZeroMQ.
-5. Acesse o MinIO para visualizar e gerenciar os modelos treinados.
-
 ## Licença
 
 Este projeto é fornecido sob a licença [MIT](LICENSE). Leia o arquivo LICENSE para obter mais informações.
