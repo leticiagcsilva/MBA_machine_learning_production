@@ -1,4 +1,4 @@
-# Recomendação de Culturas utilizando Agricultura de Precisão
+# Recomendação de Culturas na Agricultura de Precisão
 
 Este projeto tem como objetivo desenvolver um modelo preditivo para recomendar as culturas mais adequadas para crescimento em uma determinada fazenda, utilizando técnicas de Agricultura de Precisão. O conjunto de dados utilizado foi obtido do Kaggle, disponível em [Crop Recommendation Dataset](https://www.kaggle.com/datasets/atharvaingle/crop-recommendation-dataset).
 
